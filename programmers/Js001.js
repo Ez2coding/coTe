@@ -15,9 +15,10 @@ num	  return
 
 */
 
-/*
+/* 
+내가 푼 코드
 function solution(num) {
-  let answer = 2;
+  let answer = '';
   
   if(num % 2 === 0) {
       answer = "Even";
@@ -29,4 +30,12 @@ function solution(num) {
 
 */
 
+
+/*
+다른사람 코드
+function solution(num) {
+  return num % 2 ? 'Odd' : 'Even';
+}
+
+*/
 
