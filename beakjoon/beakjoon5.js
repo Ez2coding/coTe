@@ -9,3 +9,34 @@
 첫째 줄에 A+B를 출력한다.
 */
 
+
+//  내가 푼것 
+let a = parseInt(input[0]);
+let b = parseInt(input[1]);
+
+if (a > b) {
+  console.log('>');
+}else if(a < b) {
+  console.log('<');
+} else {
+  console.log(`==`);
+}
+
+/* 다른사람이 푼것 1
+let a = parseInt(input[0]);
+let b = parseInt(input[1]);
+
+if( a > b) console.log('>');
+else if ( a < b ) console.log('<');
+else console.log('==');
+*/
+
+
+
+
+/* 다른사람이 푼것  2
+let a = parseInt(input[0]);
+let b = parseInt(input[1]);
+
+console.log(a === b ? '==' : a > b ? '>' : '<');
+*/
