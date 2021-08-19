@@ -14,4 +14,9 @@ ACM-ICPC 인터넷 예선, Regional, 그리고 World Finals까지 이미 2회씩
 강한친구 대한육군
 */
 
-console.log('강한친구 대한육군\n강한친구 대한육군');
+
+
+console.log(`강한친구 대한육군`);
+console.log(`강한친구 대한육군`);
+
+// console.log('강한친구 대한육군\n강한친구 대한육군');
