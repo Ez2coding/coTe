@@ -1,21 +1,12 @@
-let h = 0;
-let m = 59;
+let h = 23;
+let m = 40;
 
-function min() {
-  if(m < 60 && m >= 45) {
-    m = m -45
-    console.log(h, m);
-  } else {
-    m = m+15
-    h = h-1
-    console.log(h, m)
-  }
+
+m -= 45;
+
+if (m < 0 ) {
+  h = h == 0 ? 23 : h-1;
+  m += 60;
 }
 
-
-if (h == 0) {
-  h =h + 23
-  min()
-} else if (h < 24) {
-  min()
-}
+console.log(h,m);

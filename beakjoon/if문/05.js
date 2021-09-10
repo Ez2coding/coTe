@@ -33,35 +33,14 @@
 예제 출력 3 
 22 55
 */ 
-let h = for(i = 0; i< 25; i++) {
-  
-}
-let m = 30;
+const input = require('fs').readFileSync('/dev/stdin').toString().trim().split(' ');
+let [h, m] = input;
 
+m -= 45;
 
-function Min() {
-  if ( m-45 > 0) {
-    console.log(h, m-45 )
-  } else {
-    console.log (h-1, m+15)
-  };
+if (m < 0 ) {
+  h = h == 0 ? 23 : h-1;
+  m += 60;
 }
 
-if (h == 0 ) {
-  h = 24
-  Min()
-} else if (h >= 24){
-  h = h-24
-  Min();
-} else {
-  Min();
-}
-
-
-let  alarm = function(h,m) {
-  function hour() {
-    if (h < 24) {
-
-    }
-  }
-}
+console.log(h,m);
